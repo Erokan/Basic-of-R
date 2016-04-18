@@ -1,3 +1,4 @@
+# pnorm - Given a set of values it calculates the probability that a normally distributed random number will be less than that number.
 pnorm(0)
 pnorm(1)
 x<-seq(-20,20,0.1)
@@ -5,6 +6,7 @@ y<-pnorm(x)
 plot(x,y,type="l")
 plot(x,y,type="l",col=2)
 
+# dnorm - Given a set of points it calculates the height of probability distribution at each point
 dnorm(0)
 dnorm(1)
 dnorm(1,mean=2,sd=20)
